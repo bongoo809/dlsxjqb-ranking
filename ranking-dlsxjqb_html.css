@@ -1,0 +1,36 @@
+.ranking {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.r-1 {
+    color: gold;
+}
+.r-2 {
+    color: silver;
+}
+.r-3 {
+    color: brown;
+}
+.r-l-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.r-l-h1 {
+    font-size: 100px;
+}
+.r-l {
+    font-size: 0px;
+}
+div[class="r-l-4"] {
+    opacity: 0%;
+}
+input[id="r-l"] {
+    opacity: 0%;
+}
+input[id="r-l"]:checked + label + div {
+    opacity: 100%;
+}
